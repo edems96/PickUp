@@ -1,0 +1,16 @@
+name: PickUp
+main: com.edems.PickUp
+version: 0.1
+
+commands:
+    pickup:
+        description: "Pick up an player."
+        usage: "/pickup"
+
+    drop:
+        description: "Drop the picked up player"
+        usage: "/drop"
+
+    dist:
+        description: "Set the picked up player distance."
+        usage: "/dist [distance]"
